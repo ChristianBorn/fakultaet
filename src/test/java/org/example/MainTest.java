@@ -12,7 +12,7 @@ class MainTest {
         // When
         int actual = Main.calculateFakultaet(number);
         // Then
-        int expectation = 0;
+        int expectation = 1;
         assertEquals(expectation, actual);
     }
     @Test
